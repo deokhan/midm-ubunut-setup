@@ -1,5 +1,12 @@
 This will help you to setup MiDM Host on Ubuntu 20.04 server.
 If you have Ubuntu 20.04 desktop or server, you can build the MiDM host easily.
+### Prerequisites
+1. Ubuntu 20.04 Server or desktop
+2. Available internet connection to setup the latest apps. It won't be needed after the configuration.
+4. 20GB storage(Recommended 60GB or more)
+5. 2GB memory(Recommended 8G or more)
+6. 2 cores CPU(Recommended 4 cores or more)
+
 ## Getting Started
 1. Download this
 2. Move to the downloaded folder.
