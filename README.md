@@ -9,3 +9,10 @@ $ sudo ./setup.sh
 ```
 It will ask you whether you will install NginX & MongoDB, and about the MongoDB connection setttings.
 Once it is defined, it'll automatically install the application which needs and initialize as default.
+
+## Setup with arguments
+If you would like to configure the parameters from the argument, you can do that.
+```
+$ sudo ./setup.sh -nginx <yes|no> -mongodb <yes|no> -files <path to store MiDM files> -webapp <path of webapp(war) file> -db.host <host ip or domain> -db.port <port> -db.name <db_name> -db.user <db user name> -db.password <password for the db user>
+```
+If there's argument not described, it will ask to enter the values.
